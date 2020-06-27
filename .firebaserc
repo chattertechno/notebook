@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "kanban-2811": {
+      "hosting": {
+        "notebook": [
+          "kanban-2811"
+        ]
+      }
+    }
+  }
+}
