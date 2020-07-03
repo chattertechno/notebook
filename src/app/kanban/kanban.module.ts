@@ -5,8 +5,8 @@ import { KanbanRoutingModule } from './kanban-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { DragDropModule } from '@angular/cdk/drag-drop';
-import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { BoardListComponent } from './board-list/board-list.component';
 import { BoardComponent } from './board/board.component';
 import { BoardDialogComponent } from './dialogs/board-dialog.component';
@@ -24,6 +24,6 @@ import { TaskDialogComponent } from './dialogs/task-dialog.component';
     MatDialogModule,
     MatButtonToggleModule
   ],
-  entryComponents: [BoardDialogComponent, TaskDialogComponent]
+  entryComponents: [BoardDialogComponent]
 })
 export class KanbanModule { }

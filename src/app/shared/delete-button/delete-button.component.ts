@@ -7,21 +7,16 @@ import { Component, Output, EventEmitter } from '@angular/core';
 })
 export class DeleteButtonComponent {
   canDelete: boolean;
-
   @Output() delete = new EventEmitter<boolean>();
-
-  cancel() {
-    this.canDelete = false;
-  }
 
   prepareForDelete() {
     this.canDelete = true;
   }
-
+  cancel() {
+    this.canDelete = false;
+  }
   deleteBoard() {
     this.delete.emit(true);
     this.canDelete = false;
   }
-
-
 }
