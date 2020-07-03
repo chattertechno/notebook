@@ -24,6 +24,6 @@ import { TaskDialogComponent } from './dialogs/task-dialog.component';
     MatDialogModule,
     MatButtonToggleModule
   ],
-  entryComponents: [BoardDialogComponent, TaskDialogComponent]
+  entryComponents: [BoardDialogComponent]
 })
 export class KanbanModule { }
