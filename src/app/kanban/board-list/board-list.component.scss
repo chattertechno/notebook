@@ -58,12 +58,13 @@
     padding: 32px;
     height: 350px;
   }
-=======
+.some-method{
   width: auto;
   padding: 24px;
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
+}
   &::-webkit-scrollbar {
     height: 4px;
     width: 4px
